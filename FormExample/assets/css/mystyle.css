@@ -1,0 +1,87 @@
+body {
+    background-color: #F1E9EC;
+}
+
+.blog-header {
+    line-height: 1;
+    border-bottom: 1px solid #DFCFD5;
+}
+
+.blog-header-logo {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+    font-size: 2.25rem;
+}
+
+.text-dark {
+    color: #343a40!important;
+}
+
+.text-white {
+    color: #fff!important;
+}
+
+.text-name {
+    color: #CAB7BE;
+}
+
+.p-md-5 {
+    padding: 3rem!important;
+}
+
+.display-4 {
+    font-size: 3rem;
+}
+
+.jumbotron {
+    background-image: url("../img/cover.jpeg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.form-group {
+    margin: 0;
+}
+
+.form-element {
+    background: #f8f8f8;
+    color: #221E20 !important;
+    font-size: 13px;
+    border: 1px solid rgb(224, 207, 213, 0.05);
+    border-radius: 0px;
+}
+
+.form-element:hover {
+    border: 1px solid #E1ADC0;
+}
+
+.form-element:focus {
+    border: 1px solid #E1ADC0;
+    background: #f8f8f8;
+}
+
+.form-flex-grow {
+    flex-grow: 1;
+}
+
+#contactFormMessageInput { height: 7rem; }
+
+.form-button {
+    background: #E9C6D3;
+    color: white;
+    padding: 8px 12px;
+    margin: auto;
+    border: none;
+    display: block;
+    width: 180px;
+    text-align: center;
+    font-size: 0.8em;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.10);
+    -moz-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.10);
+    -webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.10);
+}
+
+.form-button:hover {
+    background: #E1ADC0;
+    color: white;
+}
